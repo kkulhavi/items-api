@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = 80
+const port = process.env.PORT||3000
 
 const fruits=['apple','pear','plum','raspberry']
 const items=[
